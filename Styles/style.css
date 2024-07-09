@@ -2,12 +2,27 @@
 
 *{
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
 }
 body{
     font-family: "Azeret Mono", monospace;
 
+}
+.btn-learn{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 171px;
+    height: 47px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 /* Banner Section starts here */
 .banner-container{
@@ -29,6 +44,8 @@ body{
     font-weight: 800;
     text-align: center;
     margin-top: 32px;
+    width: 998px;
+    height: 136px;
 }
 .banner-content p{
     font-size: 16px;
@@ -48,4 +65,159 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+/* Why Web Dev section starts here */
+.webdev-section-container{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.webdev-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.webdev-text h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    margin-top: 80px;
+}
+.webdev-text p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    width: 852px;
+    height: 52px;
+    opacity: 0.7;
+}
+/* card1 section starts*/
+.card1{
+    width: 946px; 
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 48px;
+    display: flex;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.card1-left-side-content{
+    width: 477px;
+    height: 219px;
+    padding: 0px;
+}
+.card1-left-side-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 10px;
+}
+.card1-left-side-content p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 468px;
+    height: 52px;
+    margin-top: 16px;
+    opacity: 0.7;
+}
+.card1-left-side-content button{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.card1-right-side-content{
+    width: 206px;
+    height: 187px;
+}
+
+/* card2 section starts*/
+
+.card2{
+    width: 946px; 
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 48px;
+    display: flex;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.card2-right-side-content{
+    width: 477px;
+    height: 219px;
+    padding: 0px;
+}
+.card2-right-side-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 10px;
+}
+.card2-right-side-content p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 468px;
+    height: 52px;
+    margin-top: 16px;
+    opacity: 0.7;
+}
+.card2-right-side-content button{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.card2-left-side-content{
+    width: 206px;
+    height: 187px;
+}
+
+/* Card3 section starts */
+.card3{
+    width: 946px; 
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 48px;
+    display: flex;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.card3-left-side-content{
+    width: 477px;
+    height: 219px;
+    padding: 0px;
+}
+.card3-left-side-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 10px;
+}
+.card3-left-side-content p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 468px;
+    height: 52px;
+    margin-top: 16px;
+    opacity: 0.7;
+}
+.card3-left-side-content button{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.card3-right-side-content{
+    width: 206px;
+    height: 187px;
 }
