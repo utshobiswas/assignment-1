@@ -26,12 +26,13 @@ body{
 }
 /* Banner Section starts here */
 .banner-container{
+    width: 1349px;
+    max-height: 619px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    width: 1440px;
-    height: 652px;
+    background-size: cover;
+    
 }
 .banner-content{
     display: flex;
@@ -268,17 +269,16 @@ body{
 .current-target-container{
     width: 1140px;
     height: 460px;
-    border: 2px solid orangered;
     margin-top: 151px;
 }
-.Current-target-text h1{
+.current-target-text h1{
     width: 852px;
     height: 37px;
     text-align: center;
     font-size: 32px;
     font-weight: 800;
 }
-.Current-target-text p{
+.current-target-text p{
     width: 852px;
     height: 52px;
     text-align: center;
@@ -287,39 +287,161 @@ body{
     opacity: 0.7;
     margin-top: 24px;
 }
+.current-target-cards-container{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 48px;
+    gap: 24px;
 
+}
 
+/* current-target-card1 starts here */
+.current-target-card1{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.current-target-card1 img{
+    width: 56px;
+    height: 56px;
+    margin-right: 228px;
+}
+.current-target-card1 h4{
+    width: 284px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.current-target-card1 p{
+    width: 284px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+.current-target-card1 a{
+    width: 284px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+/* current-target-card2 starts here */
+.current-target-card2{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.current-target-card2 img{
+    width: 56px;
+    height: 56px;
+    margin-right: 228px;
+}
+.current-target-card2 h4{
+    width: 284px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.current-target-card2 p{
+    width: 284px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+.current-target-card2 a{
+    width: 284px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
 
-
-
-
-
-
-
-
-
-
+/* current-target-card3 starts here */
+.current-target-card3{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.current-target-card3 img{
+    width: 56px;
+    height: 56px;
+    margin-right: 228px;
+}
+.current-target-card3 h4{
+    width: 284px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.current-target-card3 p{
+    width: 284px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+.current-target-card3 a{
+    width: 284px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
 
 /* Support section starts here */
 .support-section-container{
     width: 1140px;
     height: 313px;
-    border: 2px solid purple;
     border-radius: 16px;
-    background-image: url(../assets/handshake.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
     background-size: cover;
+    background-position: center;
     padding: 64px 48px;
+    margin-top: 49px;
 }
 .support-section-content{
     width: 1044px;
     height: 185px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    padding: 0px;
+    margin: 0 auto;
 }
 .support-section-content h1{
     width: 292px;
@@ -337,4 +459,31 @@ body{
     font-weight: 400;
     color: white;
     opacity: 0.7;
+    margin-top: 16px;
+}
+.input-box{
+    width: 548px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 180px;
+    margin-right: 16px;
+    position: absolute;
+}
+.input-text-submit{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 744px;
+    position: relative;
 }
